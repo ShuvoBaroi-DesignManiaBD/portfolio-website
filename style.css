@@ -159,3 +159,59 @@ header{
 .about-img {
     width:500px
 }
+
+/* Services Section Styles */
+
+.services-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1a1a1a;
+    padding: 80px 0;
+    color: white;
+}
+
+.secvices-section hr{
+    margin-bottom: 40px;
+}
+
+
+.service-item-wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 1160px;
+}
+
+.service-item-wrap h2{
+    font-size: 24px;
+}
+
+.service-item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #312f2f;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.356) 0px 0px 15px 8px;
+}
+
+.service-item img{
+    width: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+footer > .col{
+    width: 25%;
+}
