@@ -199,7 +199,7 @@ header{
     background-color: #312f2f;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: rgba(255, 255, 255, 0.356) 0px 0px 15px 8px;
+    box-shadow: rgba(255, 255, 255, 0.356) 0px 0px 30px 5px;
 }
 
 .service-item img{
@@ -207,11 +207,47 @@ header{
 }
 
 footer{
+    background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   color: white;
+}
+
+.footer-wrap > .col{
+    width: 20%;
+
+}
+
+.footer-wrap > .col1{
+    width: 40%;
+}
+
+.footer-wrap > .col1 p{
+    font-size: 14px;
+    padding-right: 100px;
+}
+
+.footer-wrap{
+    width: 1160px;
     display: flex;
     flex-direction: row;
     flex-wrap: no-wrap;
+    justify-content: space-between;
+    padding: 80px;
 }
 
-footer > .col{
-    width: 25%;
+.link-list{
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.copyright{
+    color: white;
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
 }
