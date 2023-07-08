@@ -150,12 +150,7 @@ header{
 .about-wrap > .right-col{
     width: 50%;
 }
-/* .about-section > .about-wrap > .right-col > h2{
-    text-align: left;
-}
-.about-wrap > .right-col p{
-    text-align: left;
-} */
+
 .about-img {
     width:500px
 }
@@ -205,6 +200,8 @@ header{
 .service-item img{
     width: 100px;
 }
+
+/* Footer Styles */
 
 footer{
     background-color: black;
